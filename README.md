@@ -1,4 +1,4 @@
-# Deep Past Initiative Machine Translation: 5th-Place Solution
+# Deep Past Challenge - Translate Akkadian to English: 5th-Place Solution
 
 This repository contains the 5th-place solution for the Kaggle competition [Deep Past Initiative: Machine Translation](https://www.kaggle.com/competitions/deep-past-initiative-machine-translation).
 
@@ -71,28 +71,6 @@ To generate synthetic English passages that resemble scholarly translations of A
 ```bash
 bash scripts/generate_translation_like_english.sh
 ```
-
-## Recommended Execution Order
-
-For full reproduction, run the repository in the following order:
-
-1. Build and run the environment from `docker/Dockerfile`.
-2. Place all required input data under `input/`.
-3. Set `OPENROUTER_API_KEY` in `.env`.
-4. `bash scripts/preprocess.sh`
-5. `bash scripts/pdf_extraction.sh`
-6. `bash scripts/run_aligned_extraction_pipeline.sh`
-7. `bash scripts/generate_translation_like_english.sh`
-8. `bash scripts/xl/01_span_corruption.sh`
-9. `bash scripts/xl/02_evacan_ft.sh`
-10. `bash scripts/xl/03_tablet_ft.sh`
-11. `bash scripts/xl/04_bt_evacan_ft.sh`
-12. `bash scripts/xl/05_bt_tablet_ft.sh`
-13. `bash scripts/xl/06_generate_pseudo_labels.sh`
-14. `bash scripts/xl/07_generate_back_translation.sh`
-15. `bash scripts/xl/08_pseudo_bt_pretrain.sh`
-16. `bash scripts/xl/09_final_ft.sh`
-17. `bash scripts/xl/10_average_weights.sh`
 
 ## Training Pipeline
 
