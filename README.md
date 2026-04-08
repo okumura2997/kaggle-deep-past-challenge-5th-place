@@ -107,6 +107,8 @@ Relevant scripts:
 - `scripts/xl/09_final_ft.sh`
 - `scripts/xl/10_average_weights.sh`
 
+The weights from the final fine-tuning stage are available on Kaggle at [yukiokumura1/byt5-xl-final-ft](https://www.kaggle.com/datasets/yukiokumura1/byt5-xl-final-ft).
+
 ## Inference
 
 For inference and submission code, refer to the Kaggle notebook [5th-solution](https://www.kaggle.com/code/ebinan92/5th-solution).
