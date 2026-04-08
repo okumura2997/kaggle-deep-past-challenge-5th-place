@@ -1,6 +1,6 @@
 # Deep Past Challenge - Translate Akkadian to English: 5th-Place Solution
 
-This repository contains the 5th-place solution for the Kaggle competition [Deep Past Initiative: Machine Translation](https://www.kaggle.com/competitions/deep-past-initiative-machine-translation).
+This repository contains the 5th-place solution for the Kaggle competition [Deep Past Challenge - Translate Akkadian to English](https://www.kaggle.com/competitions/deep-past-initiative-machine-translation).
 
 The accompanying Kaggle solution write-up is available [here](https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/writeups/5th-solution).
 
