@@ -3,7 +3,7 @@
 python src/train.py \
     --train_path data/evacun/train_processed.csv \
     --model outputs/pretrain/xl-span-corruption/best_model \
-    --num-train-epochs 15 \
+    --num-train-epochs 10 \
     --train-tokenize-max-length 512 \
     --per-device-train-batch-size 16 \
     --gradient-accumulation-steps 1 \

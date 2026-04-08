@@ -3,7 +3,7 @@
 python src/train.py \
     --model outputs/finetune/back-translation-xl-evacun-ft/best_model \
     --translation_direction english_to_akkadian \
-    --num-train-epochs 10 \
+    --num-train-epochs 5 \
     --add-extracted-data \
     --extracted-data-path data/extract_excavation_translation_pairs_from_locations/translations_by_record_merged_processed_en.csv \
     --train_path data/train_processed.csv \
