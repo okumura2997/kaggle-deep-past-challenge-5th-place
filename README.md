@@ -64,6 +64,8 @@ bash scripts/pdf_extraction.sh
 bash scripts/run_aligned_extraction_pipeline.sh
 ```
 
+The resulting PDF-derived parallel corpus files from these extraction pipelines are also available as a Kaggle dataset: <https://www.kaggle.com/datasets/yukiokumura1/deep-past-challenge-pdf-derived-parallel-corpus>.
+
 ## Synthetic Translation Generation
 
 To generate synthetic English passages that resemble scholarly translations of Akkadian transliterations, used as the source side for back-translation, run:
